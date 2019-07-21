@@ -1,0 +1,7 @@
+<!--pages/cute/cute.wxml-->
+ <view class="txt">
+    <text>{{motto}}</text>
+    <text>{{myname}}</text>
+    <text>{{ver}}</text>
+    <text>{{descrip}}</text>
+</view>

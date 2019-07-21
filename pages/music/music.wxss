@@ -1,0 +1,16 @@
+.btn{
+  width:80%;
+  height:30px;
+  background-color:#90ab7b;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.audi{
+  align-items: center;
+  width:fit-content;
+
+}

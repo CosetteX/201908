@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info/info",
+    "pages/admin/admin",
+    "pages/music/music"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b8a1cf",
+    "navigationBarTitleText": "校园生活",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "番茄钟",
+        "iconPath": "images/clock.png",
+        "selectedIconPath": "images/clock1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "待办事项",
+        "iconPath": "images/dairies.png",
+        "selectedIconPath": "images/dairies1.png"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "text": "我的",
+        "iconPath": "images/admin.png",
+        "selectedIconPath": "images/admin1.png"
+      }
+    ],
+    "selectedColor": "#8e7ca9"
+  },
+  "sitemapLocation": "sitemap.json"
+}

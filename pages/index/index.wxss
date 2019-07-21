@@ -1,0 +1,164 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 160rpx;
+  height: 160rpx;
+  margin: 30rpx;
+  border-radius: 20%;
+}
+
+.userinfo-nickname {
+  color: #977bd0
+}
+
+.usermotto {
+  margin-top: 20px;
+  color: #978bd0
+}
+/** wxss **/
+/** 修改button默认的点击态样式类**/
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: blue;
+}
+button {margin: 15px;}
+
+
+ .btn1 {
+  width: 92%;
+  margin-top: 15rpx;
+  background-color:#b8a1cf;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+   .btn11 {
+  width: 92%;
+  margin-top: 15rpx;
+  background-color:#9370b6;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+ 
+ .btn2{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#95a1cc;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn21{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#6577b5;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn3{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#95bec4;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn31{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#42a5ac;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn4{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#a4ccb7;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn41{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#75b292;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn5{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#b6c8a8;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn51{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#90ab7b;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btnImg {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.btn1::after {
+  border-radius: 98rpx;
+  border: 0; 
+}
+
+swiper{
+  width:100%;
+  height: 200px;
+}
+image{
+  width:100%;
+}
