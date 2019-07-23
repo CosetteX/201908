@@ -1,26 +1,42 @@
 <!--index.wxml-->
-<swiper autoplay indicator-dots circular indicator-color='white' indicator-active-color='#ae88ba'>
-<swiper-item><image src="../../images/1.jpg"></image></swiper-item>
-<swiper-item><image src="../../images/2.jpg"></image></swiper-item>
-<swiper-item><image src="../../images/3.jpg"></image></swiper-item>
-</swiper>
-<text>\n</text>
-<button class='btn1' open-type='openSetting' hover-class='btn11'>
-    <image class='btnImg' src='../../images/news.png'></image>
-    <view>校园快讯</view>
- </button>
-<button class='btn2'hover-class='btn21' open-type='openSetting'>
-    <image class='btnImg' src='../../images/bus.png'></image>
-    <view>校车查询</view>
- </button>
- <button class='btn3'hover-class='btn31' open-type='openSetting'>
-    <image class='btnImg' src='../../images/pay.png'></image>
-    <view>校园卡充值</view>
- </button>
-  <button class='btn4' hover-class='btn41'open-type='openSetting'>
-    <image class='btnImg' src='../../images/weather.png'></image>
-    <view>天气查询</view>
- </button> <button class='btn5' hover-class='btn51'open-type='openSetting' bindtap='jumpMusic'>
-    <image class='btnImg' src='../../images/music.png'></image>
-    <view>背景音乐</view>
- </button>
+<view class="container timer {{isRuning ? 'timer--runing': ''}}">
+	<view class="timer_main">
+		 <view class="timer_time-wrap">
+		 		<view class="timer_progress_mask"></view>
+		 		<view class="timer_progress timer_left">
+		 			<view class="timer_circle timer_circle--left" style="transform: rotate({{leftDeg}}deg);"></view>
+		 		</view>
+		 		<view class="timer_progress timer_right">
+		 			<view class="timer_circle timer_circle--right" style="transform: rotate({{rightDeg}}deg);"></view>
+		 		</view>
+			 	<text wx:if="{{!completed}}" class="timer_time">{{remainTimeText}}</text>
+			 	<text 
+			 		wx:if="{{isRuning}}" 
+			 		animation="{{nameAnimation}}" 
+			 		class="timer_taskName">{{taskName}}{{completed ? '已完成！' : '中'}}</text>
+		 		<image 
+		 			wx:if="{{completed}}" 
+		 			class="timer_done" 
+		 			src="../../images/complete.png"></image>
+		 </view>
+		 <input 
+		 	type="text" 
+		 	placeholder-style="text-align:center" 
+		 	class="timer_inputname" 
+		 	bindinput="changeLogName"
+		 	placeholder="给您的任务取个名字吧"/>
+	</view>
+	
+	<view class="timer_footer">
+	  <view 
+	  	bindtap="startTimer" 
+	  	data-type="work" 
+	  	class="timer_ctrl {{isRuning && timerType == 'rest' ? 'hide' : ''}}" >{{isRuning ? '完成': '工作'}}</view>
+
+	  <view 
+	  	bindtap="startTimer" 
+	  	data-type="rest" 
+	  	class="timer_ctrl {{isRuning && timerType == 'work' ? 'hide' : ''}}" >{{isRuning ? '完成': '休息'}}</view>
+	</view>
+</view>
+
