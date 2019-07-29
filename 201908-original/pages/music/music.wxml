@@ -1,0 +1,2 @@
+<audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" controls align="center"></audio>
+<button bindtap='next'>下一曲</button>

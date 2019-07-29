@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/info/info",
+    "pages/admin/admin",
+    "pages/music/music",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ae88ba",
+    "navigationBarTitleText": "效率花园",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#8e7ca9",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "番茄钟",
+        "iconPath": "images/clock.png",
+        "selectedIconPath": "images/clock1.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "images/wechat.png",
+        "selectedIconPath": "images/wechatHL.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "待办事项",
+        "iconPath": "images/dairies.png",
+        "selectedIconPath": "images/dairies1.png"
+      },
+      {
+        "pagePath": "pages/admin/admin",
+        "text": "我的",
+        "iconPath": "images/admin.png",
+        "selectedIconPath": "images/admin1.png"
+      }
+      ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

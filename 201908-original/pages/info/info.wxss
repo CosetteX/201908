@@ -1,0 +1,7 @@
+/* pages/cute/cute.wxss */ 
+.txt {
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  color: #421257;
+}

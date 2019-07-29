@@ -1,0 +1,102 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rebeccapurple;
+}
+
+.info{
+  text-align: center;
+  color:palevioletred;
+  font-size: 15px;
+}
+.btn1 {
+  width: 92%;
+  margin-top: 15rpx;
+  background-color:#b8a1cf;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+ .btn11 {
+  width: 92%;
+  margin-top: 15rpx;
+  background-color:#9370b6;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  }
+
+ 
+ .btn2{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#95a1cc;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn21{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#6577b5;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn3{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#95bec4;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn31{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#42a5ac;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ .btn4{
+  width: 92%;
+  margin-top: 20rpx;
+  background-color:#a4ccb7;
+  color:#f5f5dc;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
